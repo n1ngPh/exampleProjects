@@ -1,0 +1,2 @@
+2023-05-21 15:11:24 [scrapy.utils.log] INFO: Scrapy 2.9.0 started (bot: lianjiaSpider)
+2023-05-21 15:11:24 [scrapy.utils.log] INFO: Versions: lxml 4.9.2.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.1, Twisted 22.10.0, Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)], pyOpenSSL 23.1.1 (OpenSSL 3.1.0 14 Mar 2023), cryptography 40.0.2, Platform Windows-10-10.0.22621-SP0

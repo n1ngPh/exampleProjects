@@ -1,0 +1,497 @@
+
+            <html lang="en"><head>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!--    <link rel="icon" href="https://ssr1.scrape.center/static/img/favicon.ico">-->
+        <!--    url_for参考https://zhuanlan.zhihu.com/p/78778387-->
+            <link rel="icon" href="{{ url_for('static', filename='/img/favicon.ico') }}">
+            <title>Scrape | Movie</title>
+
+
+            <link rel="stylesheet" href="{{ url_for('static', filename='/css/app.css') }}" type="text/css">
+            <link rel="stylesheet" href="{{ url_for('static', filename='/css/index.css') }}" type="text/css">
+
+        </head>
+        <body>
+        <div id="app">
+            <div data-v-74e8b908="" class="el-row" id="header">
+                <div data-v-74e8b908="" class="container el-col el-col-18 el-col-offset-3">
+                    <div data-v-74e8b908="" class="el-row">
+                        <div data-v-74e8b908="" class="logo el-col el-col-4">
+                            <a data-v-74e8b908="" href="/" class="router-link-exact-active router-link-active">
+                                <img data-v-74e8b908="" src="{{ url_for('static', filename='/img/logo.png') }}" class="logo-image">
+                                <span data-v-74e8b908="" class="logo-title">Scrape</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: right; padding-right:100px">
+                <form method="POST" action="/name" class="el-button category el-button--primary el-button--mini" >
+                    <input type="text" placeholder="请输入查询的电影" name="keyword" class="el-button category el-button--primary el-button--mini"  />
+                    <input type="submit" class="el-button category el-button--primary el-button--mini" value="查询">
+                </form>
+            </div>
+            </div>
+
+            
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/25958717" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2554525534.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/25958717" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">海蒂和爷爷</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>2015 / 德国瑞士 / 剧情冒险家庭</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">如果生活中有什么使你感到快乐，那就去做吧！不要管别人说什么。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.3</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1291828" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2653054340.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1291828" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">天堂电影院</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1988 / 意大利法国 / 剧情爱情</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">那些吻戏，那些青春，都在影院的黑暗里被泪水冲刷得无比清晰。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.2</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1293839" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2189265085.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1293839" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">罗马假日</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1953 / 美国 / 喜剧剧情爱情</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">爱情哪怕只有一天。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.1</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1291571" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2373910134.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1291571" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">指环王1：护戒使者</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>2001 / 新西兰美国 / 剧情动作奇幻冒险</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">传说的开始。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.1</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1291843" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p451926968.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1291843" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">黑客帝国</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1999 / 美国 / 动作科幻</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">视觉革命。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.1</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1418019" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2184505167.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1418019" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">大闹天宫</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1961(中国大陆)/1964(中国大陆)/1978(中国大陆) / 中国大陆 / 剧情动画奇幻古装</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">经典之作，历久弥新。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.4</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1291548" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2575465690.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1291548" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">死亡诗社</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1989 / 美国 / 剧情</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">当一个死水般的体制内出现一个活跃的变数时，所有的腐臭都站在了光明的对面。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.1</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/1299131" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2194138787.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/1299131" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">教父2</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>1974 / 美国 / 剧情犯罪</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">优雅的孤独。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.3</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/27060077" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2549177902.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/27060077" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">绿皮书</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>2018 / 美国中国大陆 / 剧情喜剧传记音乐</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">去除成见，需要勇气。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        8.9</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div data-v-7f856186="" class="el-card item m-t is-hover-shadow">
+                        <div class="el-card__body">
+                            <div data-v-7f856186="" class="el-row">
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-8 el-col-sm-6 el-col-md-4">
+                                    <a data-v-7f856186="" href="/token/21937445" class="">
+                                        <img data-v-7f856186="" src="{{ url_for('static', filename='/img/p2158166535.jpg') }}" class="cover">
+                                    </a>
+                                </div>
+                                <div data-v-7f856186="" class="p-h el-col el-col-24 el-col-xs-9 el-col-sm-13 el-col-md-16">
+                                    <a data-v-7f856186="" href="/token/21937445" class="name">
+                                        <h2 data-v-7f856186="" class="m-b-sm">辩护人</h2>
+                                    </a>
+                                    <div data-v-7f856186="" class="categories">
+
+                                        <button data-v-7f856186="" type="button" class="el-button category el-button--primary el-button--mini">
+                                            <span>2013 / 韩国 / 剧情</span>
+                                        </button>
+                                    </div>
+                                    <div data-v-7f856186="" class="m-v-sm info">
+                                        <span data-v-7f856186="">电影的现实意义大过电影本身。</span>
+                                    </div>
+                                </div>
+                                <div data-v-7f856186="" class="el-col el-col-24 el-col-xs-5 el-col-sm-5 el-col-md-4">
+                                    <p data-v-7f856186="" class="score m-t-md m-b-n-sm">
+                                        9.2</p>
+                                    <p data-v-7f856186="">
+                                    </p><div data-v-7f856186="" role="slider" aria-valuenow="4.75" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate">
+
+
+                                </div>
+                                    <p></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
+        <div class="el-loading-mask" style="display: none;">
+                    <div class="el-loading-spinner">
+                        <svg viewBox="25 25 50 50" class="circular">
+                            <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div data-v-7f856186="" class="el-row">
+                <div data-v-7f856186="" class="el-col el-col-10 el-col-offset-11">
+                    <div data-v-7f856186="" class="pagination m-v-lg">
+                        <div data-v-7f856186="" class="el-pagination is-background">
+                            <span class="el-pagination__total">共 100 条</span>
+
+                            <button type="button" disabled="disabled" class="btn-prev">
+                                <i class="el-icon el-icon-arrow-left"></i>
+                            </button>
+
+                            <ul class="el-pager">
+
+
+                                
+                <li class="number">
+                                    <a href="/page/1">1</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/2">2</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/3">3</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/4">4</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/5">5</a>
+                                </li>
+
+                
+                <li class="number active">
+                                    <a href="/page/6">6</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/7">7</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/8">8</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/9">9</a>
+                                </li>
+
+                
+                <li class="number">
+                                    <a href="/page/10">10</a>
+                                </li>
+
+                
+
+
+                            </ul>
+
+                            <a href="/page/7" class="next">
+                                <button type="button" class="btn-next"><i class="el-icon el-icon-arrow-right"></i></button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </body></html>
+        
