@@ -10,6 +10,7 @@
 - [过极验验证码](https://github.com/n1ngPh/exampleProjects/tree/main/jiyan)
 - [云服务部署脚本](https://github.com/n1ngPh/exampleProjects/tree/main/healthSubmit)
 - [电影搜索系统](https://github.com/n1ngPh/exampleProjects/tree/main/L805)
+- [数据爬取与数据分析](https://github.com/n1ngPh/exampleProjects/tree/main/c579)
 
 ## 1. 链家网租房信息爬虫
 
@@ -61,3 +62,11 @@
 **技术栈**: HTML、CSS、Flash框架、MySQL、pyecharts、requests、Xpath
 
 该项目使用Python编程语言实现了一个电影搜索系统。通过爬取豆瓣电影信息，并将数据存储到MySQL数据库中。使用Flask框架搭建了一个本地服务器，前端界面展示电影列表，并提供搜索功能。后端实时爬取电影详情信息，并利用pyecharts库生成图表，实现在Web界面上的图表展示。
+
+## 7. 网页数据爬取和数据分析
+
+**技术栈**:pandas、numpy、NLTK、matplotlib、XPath、CSS、BeautifulSoup等
+
+项目简介：此项目类似大作业，有四个任务。任务一：获取所有链接，包括子链接的子链接；任务二：从页面中提取单词，包括删除停用词，提取单词词干等等；任务三：利用任务二提取程序，爬取所有链接，生成模型；任务四：降维，绘制权重最高的标记图。
+
+难点在于网页有各种陷阱和各种规则，比如特殊字符串了，还有一下标签不能爬，如何规范提取单词词干等等，爬取数据内容要格外小心。
